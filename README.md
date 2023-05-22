@@ -14,8 +14,10 @@ In this operation, the car is returned, so it is once again free (Boolean contro
 
 The database is made up of three tables:
 
--Car: Represents the rental car and saves the id, name, type, status (rented or not), price
--Client: Represents the client who rents the car and saves the id, name and loyalty points
+-Car: Represents the rental car and saves the id, name, type, status (rented or not), price.
+
+-Client: Represents the client who rents the car and saves the id, name and loyalty points.
+
 -Rental: Represents the rental of a car made by a customer and saves the id, car id, customer id, start date, end date and rental price.
 
 In summary, a customer is allowed to rent one or more vehicles, so a rental will be generated for each of them, which will have a customer and an associated car.
