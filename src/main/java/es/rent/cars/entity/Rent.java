@@ -16,7 +16,7 @@ import javax.persistence.Table;
 import lombok.Data;
 
 /**
- * @author Julian
+ * @author JulianM
  *
  */
 @Entity
